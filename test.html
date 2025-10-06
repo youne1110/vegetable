@@ -7,14 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     /* 示範用：漂亮一點的方塊 */
-    .web-box {
-      background: #f4f4f4;
-      border: 1px solid #ddd;
-      padding: 16px;
-      border-radius: 8px;
-      text-align: center;
-      font: 500 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Arial, "Microsoft JhengHei", sans-serif;
-    }
+    
     .web-title{
       margin: 32px 0 8px;
       font: 700 18px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Arial, "Microsoft JhengHei", sans-serif;
@@ -24,14 +17,17 @@
 </head>
 <body>
   <div class="v-container">
-    <h1 class="web-title">基本 12 欄（mobile 直落，md 起三等分）</h1>
+    <!-- <h1 class="web-title">基本 12 欄（mobile 直落，md 起三等分）</h1>
     <div class="v-row">
       <div class="v-col-12 v-col-md-4"><div class="web-box">A（12 → md:4）</div></div>
       <div class="v-col-12 v-col-md-4"><div class="web-box">B（12 → md:4）</div></div>
       <div class="v-col-12 v-col-md-4"><div class="web-box">C（12 → md:4）</div></div>
-    </div>
+    </div> -->
 
-    <h2 class="web-title">間距（gutter）與 no-gutters</h2>
+    <!--  -->
+
+    <!-- <h2 class="web-title">對齊（justify / align）</h2>
+    <div clas<h2 class="web-title">間距（gutter）與 no-gutters</h2>
     <div class="v-row">
       <div class="v-col-6"><div class="web-box">有 gutter 左</div></div>
       <div class="v-col-6"><div class="web-box">有 gutter 右</div></div>
@@ -39,11 +35,10 @@
     <div class="v-row no-gutters" style="margin-top:12px">
       <div class="v-col-6"><div class="web-box">無 gutter 左</div></div>
       <div class="v-col-6"><div class="web-box">無 gutter 右</div></div>
-    </div>
-
-    <h2 class="web-title">對齊（justify / align）</h2>
-    <div class="v-row justify-space-between align-center" style="min-height:80px">
-      <div class="v-col-3"><div class="web-box">左</div></div>
+    </div>s="v-row justify-space-between align-center" style="min-height:80px">
+      <div class="v-col-3"><div class="web-box">
+        
+      </div></div>
       <div class="v-col-3"><div class="web-box">中</div></div>
       <div class="v-col-3"><div class="web-box">右</div></div>
     </div>
@@ -56,22 +51,32 @@
     </div>
     <div class="v-row" style="margin-top:12px">
       <div class="v-col-12 v-col-md-4 offset-md-2"><div class="web-box">偏移 2 欄</div></div>
+    </div> -->
+
+    <h1 class="web-title">自動伸展（auto）與固定寬度混用</h1>
+    <div class="navigation">
+      <div class="v-row justify-space-start align-center" style="min-height:80px">
+      <div class="v-col-4"><a href="#Home">Home</a>
+      <div class="v-col-4"><a href="#About Us">About Us</a>
+      <div class="v-col-4"><a href="#Vegetables">Vegetables</a>
+      <div class="v-col-4"><a href="#Online">Online</a>
+      <div class="v-col-4"><a href="#Contact">Contact</a>
     </div>
 
-    <h2 class="web-title">自動伸展（auto）與固定寬度混用</h2>
-    <div class="v-row">
-      <div class="v-col-auto"><div class="web-box">auto</div></div>
-      <div class="v-col-6"><div class="web-box">固定 6 欄</div></div>
-      <div class="v-col-auto"><div class="web-box">auto</div></div>
+    </div>
+   
+      
+      <!-- <div class="v-col-6"><div class="web-box1q">固定 6 欄</div></div> -->
+      <!-- <div class="v-col-auto"><div class="web-box">auto</div></div> -->
     </div>
 
-    <h2 class="web-title">不同斷點尺寸</h2>
+    <!-- <h2 class="web-title">不同斷點尺寸</h2>
     <div class="v-row">
       <div class="v-col-12 v-col-sm-6 v-col-lg-3"><div class="web-box">12 → sm:6 → lg:3</div></div>
       <div class="v-col-12 v-col-sm-6 v-col-lg-3"><div class="web-box">12 → sm:6 → lg:3</div></div>
       <div class="v-col-12 v-col-sm-6 v-col-lg-3"><div class="web-box">12 → sm:6 → lg:3</div></div>
       <div class="v-col-12 v-col-sm-6 v-col-lg-3"><div class="web-box">12 → sm:6 → lg:3</div></div>
-    </div>
+    </div> -->
   </div>
 </body>
 </html>

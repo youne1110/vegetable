@@ -282,3 +282,14 @@
 .self-end{ align-self: flex-end; }
 .self-center{ align-self: center; }
 .self-stretch{ align-self: stretch; }
+
+.navigation{
+
+  background-color: #778A50;
+
+}
+.web-box {
+      padding:10px 30px;
+      text-align: center;
+      font: 500 14px/1.2 system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Arial, "Microsoft JhengHei", sans-serif;
+    }
