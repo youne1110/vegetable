@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Noto Sans";  /* 取個名字方便使用 */
+  src: url("Fonts/NotoSansTC-VariableFont_wght.ttf") format("truetype");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 確保可以使用 100% 高度 */
+}
+
+body {
+    background-color: #EDF2C5;
+    display: flex;
+    flex-direction: column;   /* 主軸為垂直 */
+    justify-content: space-around; /* 主軸方向分散排列 */
+    align-items: center;      /* 交叉軸(水平)置中 */
+    gap:16px 0;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1; /* 占滿剩餘空間，推 footer 到底 */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.header {
+  width: 1122px;
+  height: 62px;
+  display: flex;                /* 啟用 Flex */
+  align-items: center;          /* 垂直置中 */
+  justify-content: flex-start;  /* 水平靠左（可改 center 居中） */
+}
+.header h1 {
+  font-family: "Noto Sans";
+  font-size: 44px;
+  font-weight: 900;
+  color: #778A50;
+  margin: 0;                    /* 清掉 h1 預設外距 */
+}
+
+.container {
+     font-family:"Noto Sans" ;
+     background-color:#778A50;
+      width: 1120px;     
+}
+.container ul{
+     height: 44px;
+     display: flex;
+     align-items: center;     /* 垂直置中 */
+     gap: 62px;               /* 控制間距 */
+     list-style: none;
+     padding: 0 30px; /* 👈 左右各留 40px 空間，可自行調整 */
+     box-sizing: border-box; /* 確保寬度不被 padding 撐開 */
+     margin: 0;
+     
+}
+.container ul a{
+     text-decoration: none;
+     font-family: "Noto Sans";
+     color: #EDF2C5;
+     font-weight: 900;    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px,60px 0;
+}
+.about{
+    width: 528px;
+    height: 201px;
+    
+}
+.about h2{
+    width: 100%;
+    height: 45px;
+    background-color:#778A50;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 900;    
+    color: #EDF2C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+    box-sizing: border-box; /* 確保 padding 不會撐出 footer */
+}
+.image-container{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box; /* 確保 padding 不會撐出 footer */
+}
+
+.contact{
+    width: 528px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contact h2{
+    width: 100%;
+    height: 45px;
+    background-color:#778A50;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 900; 
+    color: #EDF2C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+    box-sizing: border-box; /* 確保 padding 不會撐出 footer */
+}
+.contact article{
+    width: 528px;
+    height: 140px;
+    padding: 15px;
+    background-color: #f7fbda;
+}
+.contact article p{
+    font-family:"Noto Sans" ;
+    font-size: 12px;
+    color: #7d7d7d;
+    font-weight: 400;  
+    
+}
+
+.footer{
+    display: flex;
+    justify-content:center;
+    align-items: center; /* 垂直置中 */
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    font-family: "Noto Sans";
+    background-color: #778A50;
+}
+.footer p{
+    font-family:"Noto Sans" ;
+    font-size: 12px;
+    color: #EDF2C5;
+    font-weight: 400;    
+}
