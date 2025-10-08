@@ -1,57 +1,90 @@
+<!DOCTYPE html>
 
-<html lang="zh-Hant">
+
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>我的網站</title>
-  <link rel="stylesheet" href="test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables_Homework</title>
+    <link rel="stylesheet" href="css/normalize.css"> <!--清除所有預設格式-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
+
 <body>
-  <header class="header">
-    <h1>Vegetables</h1>
-  </header>
 
-  <nav class="container">
-    <ul>
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#About Us">About Us</a></li>
-      <li><a href="#Vegetables">Vegetables</a></li>
-      <li><a href="#Online">Online</a></li>
-      <li><a href="#Contact">Contact</a></li>
-    </ul>
-  </nav>
+    <header class="header">
+        <div class="title-area">
+            <h1 class="header-title">Vegetables</h1>
+            <div class="header-link">
+                <ul class="social-media">
+                    <p class="facebook"><a href="#"><img src="images/facebook_icon.png" alt="facebook"></a></p>
+                    <p class="instagram"><a href="#"><img src="images/instagram_icon.png" alt="instagram"></a></p>
+                </ul>
+                <ul class="user-botton">
+                    <p class="user-botton-item"><a href="#" class="user-link">LOGIN</a></p>
+                    <p class="user-botton-item"><a href="#" class="user-link">JOIN</a></p>
+                </ul>
+            </div>
+        </div>
 
- <main class="main">
-  <section id="home">
-    <img src="images/img_main_pumpkin.png" alt="一堆南瓜">
-  </section>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Vegetables</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Online</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
- <div class="content-container">
-  <section class="about">
-    <h2>Vegetables</h2>
-    <div class="image-container">
-      <img src="images/img_vegetables_carrot.png" alt="圖片1">
-      <img src="images/img_vegetables_corn.png" alt="圖片2">
-      <img src="images/img_vegetables_pepper.png" alt="圖片3">
-    </div>
-  </section>
-  <section class="contact">
-    <h2>Contact</h2>
-    <article class="article">
-     <p>For any questions or suggestions about Vegetables, Vegetables Club or your online order you can contact Vegetables Customer Service by phone, email or post and we’ll be happy to help.</p>
-     <p>E-mail: Vegetables@aaabbccc.com PHONE: +886-123-456-789</p>
-    </article>
-  </section>
- </div>
-  
- </main>
 
-  
+    <main class="main-area">
 
-  <footer class="footer">
-    <p>Copyrights 2017 Vegetables cise / Design by Vegetables</p>
-  </footer>
+
+        <div class="main-img">
+            <img src="images/img_main_pumpkin.png" alt="Main image-pumpkin">
+        </div>
+
+
+        <section class="vegetables">
+            <h2 class="section-title">Vegetables</h2>
+            <div class="figure-container">
+                <figure class="vegetables-figure"><img src="images/img_vegetables_carrot.png" alt="carrot"></figure>
+                <figure class="vegetables-figure"><img src="images/img_vegetables_corn.png" alt="corn"></figure>
+                <figure class="vegetables-figure"><img src="images/img_vegetables_pepper.png" alt="pepper"></figure>
+            </div>
+        </section>
+
+
+        <section class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-text">
+                <p class="contact-description">
+                    For any questions or suggestions about Vegetables, Vegetables Club or your online order you can
+                    contact Vegetables Customer Service by phone, email or post and we’ll be happy to help.
+                </p>
+                <p class="contact-info">
+                    E-mail : Vegetables@aaabbccc.com <br>
+                    PHONE : +886-123-456-789
+                </p>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy Copyrights 2017 Vegetables cise / Design by Vegetables</p>
+    </footer>
+
 
 </body>
+
 </html>
