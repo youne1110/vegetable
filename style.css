@@ -1,4 +1,6 @@
-html {
+html body {
+    height: 100% !important;          /* 讓整個頁面高度 = 視窗高度 */
+    margin: 0 !important;             /* 移除預設外距 */
     box-sizing: border-box;
     background-color: #EDF2C5;
 }
@@ -7,18 +9,12 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: "Noto Sans", sans-serif;
-}
-
-
 /* header */
 .header {
     display: grid;
     grid-template-rows: 62px 44px;
     margin-top: 36px;
-    margin-left: auto;
-	margin-right: auto;
+
     max-width: 1120px;
     min-width: 528px;
     color: #778A50;
@@ -129,6 +125,7 @@ body {
 .main-area {
     display: flex;
     flex-flow: row wrap;
+    flex: 1; 
     max-width: 1120px;
     min-width: 528px;
     min-height: 681px;
@@ -200,15 +197,18 @@ body {
 
 /* footer */
 .footer {
+    flex-direction: column;
+    justify-content: end;
     text-align: center;
+    width: 110%;
     height: 60px;
     border-radius: 3px;
     background-color: #778A50;
     color: #EDF2C5;
     font-size: 12px;
     font-weight: 400;
-    line-height: 60px;
-    margin-top: 60px;
+    top: 10px;
+    position: static;
 }
 
 
