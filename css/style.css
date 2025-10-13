@@ -61,6 +61,7 @@ body {
 }
 
 .user-botton-item {
+    display: flex;
     margin: 0;
     margin-left: 8px;
     padding: 4px 8px;
@@ -69,11 +70,12 @@ body {
     border-radius: 3px;
 }
 
-.user-link {
+.user-link { 
     text-decoration: none;
     color: #778A50;
     font-weight: 700;
     font-size: 14px;
+    padding: 0px 8px;
 }
  
 .user-botton-item:hover {
@@ -211,7 +213,9 @@ body {
     line-height: 60px;
     margin-top: 60px;
 }
-
+.footer p{
+    margin: 0;
+}
 
 
 @media (max-width: 1120px) {
